@@ -15,4 +15,8 @@ class OrdenadorTest < Test::Unit::TestCase
     assert_equal [1, 2, 3 ,4, 5, 6, 7, 8, 9, 10], @ordenador.via_bubble_sort(@lista)
   end
   
+  def test_insertion_sort
+    assert_equal [1, 2, 3 ,4, 5, 6, 7, 8, 9, 10], @ordenador.via_insertion_sort(@lista)
+  end
+  
 end
