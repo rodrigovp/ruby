@@ -1,3 +1,3 @@
 ruby
 ====
-Repositório para armazenamento de projetos em Ruby
+Repositório para armazenamento de pequenos scripts em Ruby
